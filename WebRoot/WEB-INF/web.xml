@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <display-name></display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserExistServlet</servlet-name>
+    <servlet-class>com.wjy.hehe.UserExistServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Shengshiliandong</servlet-name>
+    <servlet-class>com.wjy.hehe.Shengshiliandong</servlet-class>
+  </servlet>
+    <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CountryCityResort</servlet-name>
+    <servlet-class>com.wjy.hehe.CountryCityResort</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BaiduServlet</servlet-name>
+    <servlet-class>com.wjy.hehe.BaiduServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetSonsServlet</servlet-name>
+    <servlet-class>com.wjy.entity.GetSonsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>initCountryServlet</servlet-name>
+    <servlet-class>com.wjy.entity.initCountryServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Resorts</servlet-name>
+    <servlet-class>com.wjy.hehe.Resorts</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DwrServlet</servlet-name>
+    <servlet-class>com.wjy.dwr.DwrServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>UserExistServlet</servlet-name>
+    <url-pattern>/UserExistServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Shengshiliandong</servlet-name>
+    <url-pattern>/Shengshiliandong</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BaiduServlet</servlet-name>
+    <url-pattern>/BaiduServlet</url-pattern>
+  </servlet-mapping>
+    <servlet-mapping>
+    <servlet-name>CountryCityResort</servlet-name>
+    <url-pattern>/CountryCityResort</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetSonsServlet</servlet-name>
+    <url-pattern>/GetSonsServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>initCountryServlet</servlet-name>
+    <url-pattern>/initCountryServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Resorts</servlet-name>
+    <url-pattern>/Resorts</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DwrServlet</servlet-name>
+    <url-pattern>/dwr/*</url-pattern>
+  </servlet-mapping>	
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
