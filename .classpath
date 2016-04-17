@@ -9,6 +9,6 @@
 	<classpathentry kind="lib" path="libs/gson-1.7.1.jar"/>
 	<classpathentry kind="lib" path="libs/jstl.jar"/>
 	<classpathentry kind="lib" path="libs/standard.jar"/>
-	<classpathentry kind="lib" path="libs/dwr.jar"/>
+	<classpathentry kind="lib" path="libs/dwr.jar" sourcepath="G:/java/jar/dwr-src.jar"/>
 	<classpathentry kind="output" path="WebRoot/WEB-INF/classes"/>
 </classpath>
